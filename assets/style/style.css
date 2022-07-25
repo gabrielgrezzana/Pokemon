@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');  
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+header{
+    background-image: url('./logo1.png');
+    background-color: red;
+    width: 100%;
+    height: 23rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body,html{
+    background-color: #D3E30F;
+    width: 100%;
+    height: 100vh;
+}
+
+#tabela{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.cards{
+    display: flex;
+    gap: .4rem;
+    background-color: red;
+    width: 450px;
+    height: 350px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.name-pokemon{
+    margin: 1rem;
+    text-align: center;
+    color: yellow;
+}
+
+.number-pokemon{
+    color: rgba(235, 184, 215, 0.986);
+    text-align: center;
+}
+
+#type-style{
+    display: flex;
+    gap: 5px;
+    padding-left: 40px;
+}
+
+.type-pokemon{
+   color: white;
+   border: 2px black solid;
+   text-align: center;
+   background: #5e5ef5;
+   transition: .8s;
+   margin: 6px;
+   position: relative;
+}
+
+.type-pokemon:hover{
+    color: red;
+}
+
+.descricao-pokemon{
+    
+    text-align: center;
+}
+
+.text{
+    
+    text-align: center;
+    
+}
+
+.image-pokemon{
+    width: 14.5rem;
+    height: 14.5rem;    
+    background-color: red;
+    border-right: .1px black solid;
+}
+
+#viewMore{
+    padding: 5px;
+    color: #5e5ef5;
+    background-color: rgb(75, 64, 64);
+    cursor: pointer;
+    transition: .2s;
+}
+
+footer{
+    width: 100%;
+    height: 1rem;
+}
